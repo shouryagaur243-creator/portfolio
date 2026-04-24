@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="output.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-white text-gray-900" style="font-family: Inter, sans-serif; scroll-behavior:smooth;">
+
+<!-- NAVBAR -->
+<nav class="fixed top-0 w-full bg-black backdrop-blur-md shadow-sm border-b z-50 px-8 py-4 flex justify-between items-center text-white">
+  <h1 class="text-xl font-bold">Shourya.dev</h1>
+  <div class="space-x-6 hidden md:block">
+    <a href="#home" class="hover:text-blue-600">Home</a>
+    <a href="#projects" class="hover:text-blue-600">Work</a>
+    <a href="#contact" class="hover:text-blue-600">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section id="home" class="h-screen flex items-center justify-center text-center relative">
+  
+  <!-- Coding Background -->
+  <img src="https://images.pexels.com/photos/34804020/pexels-photo-34804020.jpeg" class="absolute w-full h-full object-cover " />
+  <div class="absolute w-full h-full "></div>
+
+  <!-- Content -->
+  <div class="relative z-10 px-6 animate-fadeIn">
+    <h2 class="text-4xl md:text-6xl font-bold mb-4">
+      I Build <span class="text-black-600">Modern Websites</span>
+    </h2>
+    <p class="text-black-700 text-lg mb-2">for Businesses that want more customers</p>
+    <p class="text-black-600 mb-6">Fast • Responsive • Premium Design</p>
+
+    <div class="flex justify-center gap-4">
+      <a href="#projects" class="bg-blue-600 text-white px-6 py-3 rounded-md hover:scale-105 transition">View My Work</a>
+      <a href="#contact" class="bg-gray-200 px-6 py-3 rounded-md hover:bg-gray-300">Contact Me</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="px-8 py-20">
+  <h3 class="text-3xl font-bold mb-10 text-center">My Work</h3>
+  <div class="grid md:grid-cols-3 gap-6 bg-gray-300">
+
+    <div class="bg-white rounded-xl shadow-md border overflow-hidden hover:scale-105 transition">
+      <img src="https://images.pexels.com/photos/32192174/pexels-photo-32192174.jpeg" />
+      <div class="p-4 text-center">
+        <h4 class="font-semibold">Cafe Website</h4>
+        <p class="text-sm text-gray-600">Modern cafe landing page</p>
+        <a href="https://shouryagaur243-creator.github.io/demo-cafe-website/" class="inline-block mt-3 text-blue-600 text-sm">Live Preview →</a>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md border overflow-hidden hover:scale-105 transition">
+      <img src="https://images.pexels.com/photos/6814524/pexels-photo-6814524.jpeg" />
+      <div class="p-4 text-center">
+        <h4 class="font-semibold">Business Website</h4>
+        <p class="text-sm text-gray-600">Professional business site</p>
+        <a href="https://shouryagaur243-creator.github.io/adventurers/" class="inline-block mt-3 text-blue-600 text-sm">Live Preview →</a>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-md border overflow-hidden hover:scale-105 transition">
+      <img src="https://images.pexels.com/photos/7015077/pexels-photo-7015077.jpeg" />
+      <div class="p-4 text-center">
+        <h4 class="font-semibold">Portfolio</h4>
+        <p class="text-sm text-gray-600">Clean personal portfolio</p>
+        <a href="#" class="inline-block mt-3 text-blue-600 text-sm">live preview→</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="bg-gray-100 py-20 text-center">
+  <h3 class="text-3xl font-bold mb-10">Client Feedback</h3>
+  <div class="grid md:grid-cols-3 gap-6 px-8">
+
+    <div class="bg-white p-6 rounded-xl shadow">
+      <p class="text-gray-600">"My sales increased after the website!"</p>
+      <h4 class="mt-4 font-semibold">- Cafe Owner</h4>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl shadow">
+      <p class="text-gray-600">"Very fast delivery and clean design."</p>
+      <h4 class="mt-4 font-semibold">- Shop Owner</h4>
+    </div>
+
+    <div class="bg-white p-6 rounded-xl shadow">
+      <p class="text-gray-600">"Highly recommend for small businesses."</p>
+      <h4 class="mt-4 font-semibold">- Startup Founder</h4>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="text-center py-20">
+  <h3 class="text-2xl font-semibold mb-4">Want a Website Like This?</h3>
+  <a href="#contact" class="bg-blue-600 text-white px-8 py-3 rounded-md hover:scale-105 transition">Get Your Website</a>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="px-8 py-20 text-center bg-gray-200">
+  <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
+  <p class="text-gray-600 mb-6">Let’s build something great together.</p>
+
+  <div class="flex justify-center gap-4 flex-wrap">
+    <a href="mailto:shouryagaur243@gmail.com" class="bg-black text-white px-6 py-3 rounded-full">Email</a>
+    <a href="https://wa.me/8679597491" class="bg-green-500 text-white px-6 py-3 rounded-full">WhatsApp</a>
+  </div>
+</section>
+
+<!-- FLOATING WHATSAPP -->
+<a href="https://wa.me/8679597491" class="fixed bottom-5 right-5 bg-green-500 text-white px-4 py-3 rounded-full shadow-lg hover:scale-110 transition">
+  Chat
+</a>
+
+<!-- FOOTER -->
+<footer class="text-center py-6 text-gray-500 text-sm">
+  © 2026 Shourya. All rights reserved.
+</footer>
+
+<!-- ANIMATION -->
+<style>
+@keyframes fadeIn {
+  from {opacity:0; transform: translateY(20px);} 
+  to {opacity:1; transform: translateY(0);} 
+}
+.animate-fadeIn { animation: fadeIn 1s ease-in-out; }
+</style>
+
+</body>
+</html>
